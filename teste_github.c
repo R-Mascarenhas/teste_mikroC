@@ -7,7 +7,7 @@ while(1)
   {
    RB0_bit = ~RB0_bit;
    RB1_bit = ~RB0_bit;
-   delay_ms(100);
+   delay_ms(300);
   }
 
 }
