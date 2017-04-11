@@ -6,8 +6,10 @@ PORTB = 0x00;
 while(1)
   {
    RB0_bit = ~RB0_bit;
+
    RB1_bit = ~RB0_bit;
-   delay_ms(300);
+  delay_ms(100);
+
   }
 
 }
